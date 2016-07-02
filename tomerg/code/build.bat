@@ -3,5 +3,5 @@
 
 mkdir ..\..\build
 pushd ..\..\build
-cl ..\tomerg\code\win32_tomerg.cpp
+cl -Zi ..\tomerg\code\win32_tomerg.cpp user32.lib
 popd
